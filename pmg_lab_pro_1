@@ -1,1 +1,34 @@
 Demonstration of remote repository clone
+    1
+    • git config --global user.email "your-email@example.com"
+    • git config --global user.name "Your Name"
+    • mkdir my_project
+    • cd my_project
+    • git init
+    • echo "Hello, Git!" > myfile.txt
+    • git add myfile.txt
+    • git commit -m "Initial commit: Added myfile.txt”
+    • git log
+2 
+    • git branch feature-branch
+    • git checkout feature-branch
+    • git checkout master
+    • git merge feature-branch
+    • git log --oneline --graph
+
+3
+    • git stash
+    • git checkout <branch-name>
+    • git stash apply
+    • git stash list
+    • git stash apply stash@{0}
+    • git stash drop
+4
+    • git clone https://github.com/rupesh-sah/git_pro_pmg_lab.git
+    • git clone computerscienceapk@gmail.com:rupesh_git/repository.git
+    • cd repository
+5
+    • git fetch
+    • git checkout <branch-name>
+    • git merge origin/<branch-name>
+    • git push origin <branch-name>
